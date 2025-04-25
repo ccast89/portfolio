@@ -25,8 +25,6 @@ body {
   font-weight: 600;
 }
 
-/*CSS DE SOBRE MI*/
-
 /*CSS DE PROYECTOS*/
 #proyectos {
   background-image: url("../images/fondo-proyectos.png");
@@ -71,19 +69,23 @@ body {
 .link-rojo {
   color: #ff4a49;
 }
-#proyectos footer p {
+#proyectos footer p,
+#sobre-mi footer p {
   color: #ff4a49;
 }
-#proyectos footer .fab {
+#proyectos footer .fab,
+#sobre-mi footer .fab {
   font-size: 30px;
   color: #ff4a49;
 }
-#proyectos footer .fagithub {
+#proyectos footer .fagithub,
+#sobre-mi footer .fagithub {
   font-size: 30px;
   color: #ff4a49;
   background-color: black;
 }
-#proyectos footer .fa-linkedin-in {
+#proyectos footer .fa-linkedin-in,
+#sobre-mi footer .fa-linkedin-in {
   color: #ff4a49;
   background-color: black;
   font-size: 20px;
@@ -94,14 +96,17 @@ body {
   border-radius: 80px;
   margin: 0 8px;
 }
-#proyectos footer a {
+#proyectos footer a,
+#sobre-mi footer a {
   text-decoration: underline;
   color: #ff4a49;
 }
-#proyectos footer .fa-whatsapp {
+#proyectos footer .fa-whatsapp,
+#sobre-mi footer .fa-whatsapp {
   color: white;
 }
-#proyectos footer a:hover {
+#proyectos footer a:hover,
+#sobre-mi footer a:hover {
   cursor: pointer;
 }
 /* CSS DE CONTACTO */
@@ -120,12 +125,14 @@ h1 {
 p {
   color: #6a6a6a;
 }
-.cv {
+.cv,
+.perfil a {
   background-color: #e20000;
   border-radius: 12px;
   padding: 6px 12px;
 }
-.cv a {
+.cv a,
+.perfil a {
   color: white;
   text-decoration: none;
 }
@@ -196,6 +203,9 @@ form textarea {
 
 /*CSS SOBRE MI */
 
+#sobre mi {
+  background-color: white;
+}
 #sobre-mi .foto-perfil {
   border-radius: 150%;
   height: 200px;
@@ -225,6 +235,135 @@ form textarea {
 #stack .tecnologia i {
   font-size: 60px;
   color: #6a6a6a;
+}
+#experiencia i,
+#formacion i {
+  font-size: 50px;
+  color: #6a6a6a;
+}
+#experiencia i:hover {
+  color: #282828;
+}
+#experiencia img,
+#formacion img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+#experiencia img:hover,
+#formacion img:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+#experiencia h2 {
+  color: #370a6d;
+  font-size: 24px;
+}
+#experiencia h3 {
+  color: #6a6a6a;
+  font-size: 18px;
+  font-weight: 600;
+}
+#experiencia h4 {
+  font-size: 17px;
+  color: #370a6d;
+}
+#experiencia h5 {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+#experiencia p {
+  color: #6a6a6a;
+  font-size: 16px;
+}
+#experiencia h2,
+#experiencia h4,
+#formacion h2,
+#formacion h4 {
+  color: #370a6d;
+}
+#experiencia h2,
+#formacion h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+#experiencia h3,
+#formacion h3 {
+  color: #6a6a6a;
+  font-size: 18px;
+  font-weight: 600;
+}
+#experiencia h4,
+#formacion h4 {
+  font-size: 17px;
+}
+#experiencia h5,
+#formacion h5 {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+#sobre-mi .card {
+  height: 182px;
+}
+#idiomas .card-idioma {
+  border-radius: 15px;
+}
+#idiomas .card {
+  background-color: #370a6d;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+#idiomas {
+  background-color: #eee;
+}
+#idiomas h2 {
+  font-size: 16px;
+  font-weight: 600px;
+}
+#idiomas ul {
+  padding: 0px;
+  font-size: 14px;
+  color: #282828;
+  list-style-type: none;
+}
+#idiomas .fa {
+  font-size: 80px;
+  color: white;
+}
+#sobre-mi .card {
+  height: 182px;
+}
+
+#idiomas .card-idioma {
+  border-radius: 15px;
+}
+
+#idiomas .card {
+  background-color: #370a6d;
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+#idiomas {
+  background-color: #eee;
+}
+
+#idiomas h2 {
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+#idiomas ul {
+  padding: 0px;
+  font-size: 14px;
+  color: #282828;
+  list-style-type: none;
+}
+
+#idiomas i {
+  font-size: 80px;
+  color: white;
 }
 @media (max-width: 750px) {
   #inicio .bienvenido {
