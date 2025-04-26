@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="images/LOGO2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/LOGO1.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
@@ -59,7 +59,7 @@
     <main>
       <section class="perfil container">
         <div class="row">
-          <div class="col-10 pt-3 pb-5">
+          <div class="col-12 col-sm-7">
             <h1 class="col-12 py-5">Sobre mí</h1>
             <p>
               Soy una persona que está dando sus primeros pasos en el mundo de
@@ -70,9 +70,11 @@
               herramientas para avanzar. Estoy siempre abierta a nuevos desafíos
               y oportunidades que me permitan seguir aprendiendo.
             </p>
-            <a href="contacto.html" class="btn-rojo my-5">Enviar mensaje</a>
+            <a href="contacto.html" class="btn-rojo my-5 d-none d-sm-block w-25"
+              >Enviar mensaje</a
+            >
           </div>
-          <div class="col-2 py-5">
+          <div class="col-10 col-sm-3 py-5 pe-5">
             <img
               src="images/foto-perfil.jpg"
               alt="Foto de perfil"
@@ -87,49 +89,49 @@
             <div class="col-12">
               <h2 class="py-5">Stack Tecnológico</h2>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">JavaScript</h3>
                 <i class="fa-brands fa-html5 pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">HTML</h3>
                 <i class="fa-brands fa-html5 pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">Bootstrap</h3>
                 <i class="fa-brands fa-bootstrap pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">MySQL</h3>
                 <i class="fa-solid fa-database pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">CSS</h3>
                 <i class="fa-brands fa-css3-alt pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">Git</h3>
                 <i class="fa-brands fa-git pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">React.js</h3>
                 <i class="fa-brands fa-react pb-5"></i>
               </div>
             </div>
-            <div class="col-12 col-sm-2">
+            <div class="col-6 col-sm-2">
               <div class="tecnologia mb-4">
                 <h3 class="pt-5 pb-1">Github</h3>
                 <i class="fa-brands fa-github pb-5"></i>
@@ -140,19 +142,19 @@
       </section>
       <section id="experiencia" class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 pt-5 pb-4">
             <h2>Experiencia Laboral</h2>
           </div>
         </div>
         <div class="row shadow">
-          <div class="col-2 p-5 text-center">
+          <div class="col-sm-2 p-5 d-none d-sm-block text-center">
             <img
               src="images/logo-depcsuite.svg"
               alt="DEPCSUITE"
               class="img-fluid"
             />
           </div>
-          <div class="col-10 p-5">
+          <div class="col-12 col-sm-10 p-5">
             <h3>Pasante</h3>
             <h4>DEPCSUITE SA</h4>
             <h5>2025 - presente</h5>
@@ -163,10 +165,10 @@
               placeat aspernatur aperiam earum?
             </p>
           </div>
-          <div class="col-2 text-center my-5">
+          <div class="col-sm-2 p-5 d-none d-sm-block text-center">
             <i class="fa-solid fa-globe" alt="Freelance"></i>
           </div>
-          <div class="col-10 p-5">
+          <div class="col-12 col-sm-10 p-5">
             <h3>Desarrollador Front-End</h3>
             <h4>Freelance</h4>
             <h5>2025 - presente</h5>
@@ -181,93 +183,120 @@
       </section>
       <section id="formacion" class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 pt-5 pb-4">
             <h2>Formación Académica</h2>
           </div>
         </div>
-        <div class="row shadow">
-          <div class="col-1 p-5 text-center">
-            <img
-              src="images/logo-depcsuite.svg"
-              alt="DEPCSUITE"
-              class="img-fluid"
-            />
+        <div class="row shadow p-1 bg-white rounded">
+          <div class="col-12 col-sm-6 p-3">
+            <div class="row">
+              <div class="col-2 py-3 my-auto d-none d-sm-block">
+                <img
+                  src="images/logo-depcsuite.svg"
+                  alt="DEPCSUITE"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-12 col-sm-10 p-3">
+                <h3>Bootcamp Full Stack</h3>
+                <h4>DePc Suite</h4>
+                <h5>2025</h5>
+                <p>www.depcsuite.com</p>
+              </div>
+            </div>
           </div>
-          <div class="col-5 p-5">
-            <h3>Bootcamp Full Stack</h3>
-            <h4>DePc Suite</h4>
-            <h5>2025</h5>
-            <p>www.depcsuite.com</p>
+          <div class="col-12 col-sm-6 p-3">
+            <div class="row">
+              <div class="col-2 py-3 my-auto d-none d-sm-block">
+                <img
+                  src="images/coder.png"
+                  alt="CoderHouse"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-12 col-sm-10 p-3">
+                <h3>Curso de Desarrollo Web</h3>
+                <h4>CoderHouse</h4>
+                <h5>2023</h5>
+                <p>www.coderhouse.com</p>
+              </div>
+            </div>
           </div>
-          <div class="col-1 p-5 text-center">
-            <img src="images/coder.png" alt="DEPCSUITE" class="img-fluid" />
+          <div class="col-12 col-sm-6 p-3">
+            <div class="row">
+              <div class="col-2 py-3 my-auto d-none d-sm-block">
+                <img
+                  src="images/unca.png"
+                  alt="Universidad Nacional de Catamarca"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-12 col-sm-10 p-3">
+                <h3>Traductorado Público de Inglés</h3>
+                <h4>Universidad Nacional de Catamarca</h4>
+                <h5>2009 - 2013</h5>
+                <p>www.unca.edu.ar/</p>
+              </div>
+            </div>
           </div>
-          <div class="col-5 p-5">
-            <h3>Curso de Desarrollo Web</h3>
-            <h4>CoderHouse</h4>
-            <h5>2023</h5>
-            <p>www.coderhouse.com</p>
+          <div class="col-12 col-sm-6 p-3">
+            <div class="row">
+              <div class="col-2 py-3 my-auto d-none d-sm-block">
+                <img
+                  src="images/anglo.jpeg"
+                  alt="Instituto Cultural Argentino de Lenguas Vivas"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-12 col-sm-10 p-3">
+                <h3>
+                  Tecnicatura en Traducción Técnica, Científica y Literaria
+                </h3>
+                <h4>Instituto Cultural Argentino de Lenguas Vivas</h4>
+                <h5>2007 - 2011</h5>
+                <p>www.anglotucuman.com.ar</p>
+              </div>
+            </div>
           </div>
-          <div class="col-1 p-5 text-center">
-              <img
-                src="images/unca.png"
-                alt="Universidad Nacional de Catamarca"
-                class="img-fluid"
-              />
-          </div>
-          <div class="col-5 p-5">
-            <h3>Traductorado Público de Inglés</h3>
-            <h4>Universidad Nacional de Catamarca</h4>
-            <h5>2009 - 2013</h5>
-            <p>www.unca.edu.ar/</p>
-          </div>
-          <div class="col-1 p-5 text-center">
-            <img src="images/anglo.jpeg" alt="Instituto Cultural Argentino de Lenguas Vivas" class="img-fluid" />
-          </div>
-          <div class="col-5 p-5">
-            <h3>Tecnicatura en Traducción Técnica, Científica y Literaria</h3>
-            <h4>Instituto Cultural Argentino de Lenguas Vivas</h4>
-            <h5>2007 - 2011</h5>
-            <p>www.anglotucuman.com.ar</p>
-          </div>
+        </div>
       </section>
       <section id="idiomas">
         <div class="container">
           <div class="row py-5 mx-0">
-              <div class="col-sm-6 col-12 pb-3 pb-sm-0">
-                  <div class="row mr-sm-1 bg-white card-idioma shadow me-sm-1">
-                      <div class="col-4 text-center card">
-                          <i class="fa-regular fa-comments"></i>
-                      </div>
-                      <div class="col-8 p-5 pb-3">
-                          <h2>IDIOMAS</h2>
-                          <ul>
-                              <li>ESPAÑOL - Nativo</li>
-                              <li>INGLÉS - Proficient C2</li>
-                          </ul>
-                      </div>
-                  </div>
+            <div class="col-sm-6 col-12 pb-3 pb-sm-0">
+              <div class="row mr-sm-1 bg-white card-idioma shadow me-sm-1">
+                <div class="col-4 text-center card">
+                  <i class="fa-regular fa-comments"></i>
+                </div>
+                <div class="col-8 p-5 pb-3">
+                  <h2>IDIOMAS</h2>
+                  <ul>
+                    <li>ESPAÑOL - Nativo</li>
+                    <li>INGLÉS - Proficient C2</li>
+                  </ul>
+                </div>
               </div>
-              <div class="col-sm-6 col-12">
-                  <div class="row ml-sm-2 bg-white card-idioma shadow ms-sm-1">
-                      <div class="col-4 text-center card">
-                          <i class="fa-solid fa-table-tennis-paddle-ball"></i>
-                      </div>
-                      <div class="col-8 pt-5 px-5">
-                          <h2>HOBBIES</h2>
-                          <ul>
-                              <li>Calistenia</li>
-                              <li>Boxeo</li>
-                              <li>Videojuegos</li>
-                          </ul>
-                      </div>
-                  </div>
+            </div>
+            <div class="col-sm-6 col-12">
+              <div class="row ml-sm-2 bg-white card-idioma shadow ms-sm-1">
+                <div class="col-4 text-center card">
+                  <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="col-8 pt-5 px-5">
+                  <h2>HOBBIES</h2>
+                  <ul>
+                    <li>Calistenia</li>
+                    <li>Boxeo</li>
+                    <li>Videojuegos</li>
+                  </ul>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
+        </div>
       </section>
     </main>
-    <footer class="container mt-auto pb-5">
+    <footer class="container mt-auto pb-4">
       <div class="row">
         <div class="col-12 col-sm-3">
           <div>

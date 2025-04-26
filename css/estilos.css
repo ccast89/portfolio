@@ -25,7 +25,7 @@ body {
   font-weight: 600;
 }
 
-/*CSS DE PROYECTOS*/
+/*CSS DE PROYECTOS Y SOBRE MI*/
 #proyectos {
   background-image: url("../images/fondo-proyectos.png");
   background-size: cover;
@@ -50,7 +50,6 @@ body {
   font-size: 14px;
   height: 130px;
 }
-
 .tarjeta a {
   text-decoration: none;
   font-size: 14px;
@@ -169,7 +168,7 @@ form textarea {
   background-color: black;
 }
 #contacto footer .fa-linkedin-in,
-#iniciofooter .fa-linkedin-in {
+#inicio footer .fa-linkedin-in {
   color: #ff4a49;
   background-color: black;
   font-size: 20px;
@@ -365,6 +364,9 @@ form textarea {
   font-size: 80px;
   color: white;
 }
+
+/*Media Query*/
+
 @media (max-width: 750px) {
   #inicio .bienvenido {
     color: #ff4a49;
